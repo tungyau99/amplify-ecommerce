@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 const Routing = () => {
     <Router>
         <Routes>
-            <Route path="/" component={Home} />
+            <Route exact path="/" component={Home} />
             
             <Route path="/test" component={Test} />
         </Routes>
